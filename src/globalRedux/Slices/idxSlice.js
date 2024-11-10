@@ -8,7 +8,7 @@ const idxSlice = createSlice({
     },
     reducers: {
         incrementIdx: (state, action) => {
-                state.index =   (state.index + 1) % 2 ;
+                state.index =   (state.index + 1) % 2 
         } 
     }
 });
